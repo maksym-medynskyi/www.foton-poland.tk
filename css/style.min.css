@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ header {
   position: fixed;
   width: 100%;
   height: 90px;
-  padding: 0px 100px;
+  padding: 0px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +29,7 @@ header .logo {
   background: #fff;
   font-size: 30px;
   text-decoration: none;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
   padding: 3px;
   font-weight: 700;
 }
@@ -41,7 +40,7 @@ header .logo p {
   font-size: 30px;
   text-decoration: none;
   letter-spacing: 3px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 header ul {
@@ -93,6 +92,14 @@ section {
 section img {
   max-width: 350px;
   margin-left: 30px;
+  -webkit-box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.6);
+          box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.65);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 section h2 {
@@ -101,7 +108,7 @@ section h2 {
 }
 
 section p {
-  font-size: 22px;
+  font-size: 26px;
 }
 
 section a {
@@ -126,9 +133,80 @@ section:nth-child(odd) {
   color: #fff;
 }
 
+#home div {
+  -webkit-box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.6);
+          box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.65);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+#home div {
+  padding: 20px;
+}
+
+#about div {
+  -webkit-box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
+          box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 0, 0, 0.164);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+#about img {
+  -webkit-box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
+          box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 0, 0, 0.164);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+#about div {
+  padding: 20px;
+}
+
+#services div {
+  -webkit-box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.801);
+          box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.801);
+  border-radius: 15px;
+  background: rgba(255, 252, 86, 0.287);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+#services div {
+  padding: 10px;
+}
+
+#services img {
+  -webkit-box-shadow: 10px 10px 25px rgba(255, 252, 86, 0.452);
+          box-shadow: 10px 10px 25px rgba(255, 252, 86, 0.452);
+  border-radius: 15px;
+  background: rgba(255, 252, 86, 0.287);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+#services div h2 {
+  border-radius: 10px 10px 0px 0px;
+}
+
 @media (max-width: 992px) {
   section {
-    padding: 100px 50px 50px;
+    padding: 100px 15px 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -180,8 +258,9 @@ section:nth-child(odd) {
             transform: translate(0);
   }
   header ul li a {
-    margin: 5px 0;
+    margin: 15px 0;
     font-size: 24px;
+    right: 0px;
   }
   .toggle {
     display: block;
