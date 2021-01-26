@@ -212,6 +212,9 @@ section:nth-child(odd) {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  #home div {
+  padding: 20px;
+}
   section img {
     margin: 50px 0 0;
     max-width: 100%;
